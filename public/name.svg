@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="100" viewBox="0 0 520 100" role="img" aria-label="ALI HASAN">
+  <defs>
+    <!-- logo-like greens -->
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64BC41"></stop>
+      <stop offset="0.45" stop-color="#67C143"></stop>
+      <stop offset="0.75" stop-color="#9ED83F"></stop>
+      <stop offset="1" stop-color="#1B7D31"></stop>
+    </linearGradient>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4.2" result="b"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="b"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <text x="0" y="68" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="64" font-weight="900" letter-spacing="4" fill="url(#logoGrad)" filter="url(#softGlow)">
+    ALI HASAN
+  </text>
+</svg>
